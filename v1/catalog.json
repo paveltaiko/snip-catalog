@@ -1,0 +1,8354 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026.11.13-4",
+  "generatedAt": "2026-11-13T00:00:00Z",
+  "categories": [
+    {
+      "id": "video",
+      "name": {
+        "cs": "Video a streaming",
+        "en": "Video & streaming"
+      },
+      "symbol": "play.tv.fill",
+      "color": "#E5484D"
+    },
+    {
+      "id": "music",
+      "name": {
+        "cs": "Hudba a audio",
+        "en": "Music & audio"
+      },
+      "symbol": "music.note",
+      "color": "#30A46C"
+    },
+    {
+      "id": "ai",
+      "name": {
+        "cs": "AI",
+        "en": "AI"
+      },
+      "symbol": "sparkles",
+      "color": "#7C5CFF"
+    },
+    {
+      "id": "ai-dev",
+      "name": {
+        "cs": "AI pro vývojáře",
+        "en": "AI for developers"
+      },
+      "symbol": "chevron.left.forwardslash.chevron.right",
+      "color": "#8E4EC6"
+    },
+    {
+      "id": "productivity",
+      "name": {
+        "cs": "Produktivita",
+        "en": "Productivity"
+      },
+      "symbol": "checklist",
+      "color": "#0090FF"
+    },
+    {
+      "id": "dev",
+      "name": {
+        "cs": "Vývoj a infrastruktura",
+        "en": "Development"
+      },
+      "symbol": "server.rack",
+      "color": "#5B5BD6"
+    },
+    {
+      "id": "cloud",
+      "name": {
+        "cs": "Cloud a úložiště",
+        "en": "Cloud storage"
+      },
+      "symbol": "icloud.fill",
+      "color": "#00A2C7"
+    },
+    {
+      "id": "security",
+      "name": {
+        "cs": "Bezpečnost a VPN",
+        "en": "Security & VPN"
+      },
+      "symbol": "lock.shield.fill",
+      "color": "#12A594"
+    },
+    {
+      "id": "gaming",
+      "name": {
+        "cs": "Hry",
+        "en": "Gaming"
+      },
+      "symbol": "gamecontroller.fill",
+      "color": "#E54666"
+    },
+    {
+      "id": "news",
+      "name": {
+        "cs": "Zprávy a čtení",
+        "en": "News & reading"
+      },
+      "symbol": "newspaper.fill",
+      "color": "#F76B15"
+    },
+    {
+      "id": "fitness",
+      "name": {
+        "cs": "Zdraví a fitness",
+        "en": "Health & fitness"
+      },
+      "symbol": "figure.run",
+      "color": "#46A758"
+    },
+    {
+      "id": "education",
+      "name": {
+        "cs": "Vzdělávání",
+        "en": "Education"
+      },
+      "symbol": "graduationcap.fill",
+      "color": "#FFB224"
+    },
+    {
+      "id": "shopping",
+      "name": {
+        "cs": "Nákupy a doprava",
+        "en": "Shopping & delivery"
+      },
+      "symbol": "bag.fill",
+      "color": "#AD7F58"
+    },
+    {
+      "id": "other",
+      "name": {
+        "cs": "Ostatní",
+        "en": "Other"
+      },
+      "symbol": "square.grid.2x2.fill",
+      "color": "#8B8D98"
+    }
+  ],
+  "services": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.netflix.com",
+      "brandColor": "#E50914",
+      "logo": {
+        "monogram": "N"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.netflix.com/cancelplan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-12"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "basic",
+          "name": "Základní",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "259",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "standard",
+          "name": "Standardní",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "339",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "419",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.disneyplus.com",
+      "brandColor": "#113CCF",
+      "logo": {
+        "monogram": "D+"
+      },
+      "aliases": [
+        "disney"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.disneyplus.com/account/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "219",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "standard-yearly",
+          "name": "Standard (ročně)",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "2190",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "year",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "359",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "premium-yearly",
+          "name": "Premium (ročně)",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "3590",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "year",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "hbo-max",
+      "name": "HBO Max",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.hbomax.com",
+      "brandColor": "#002BE7",
+      "logo": {
+        "monogram": "HM"
+      },
+      "aliases": [
+        "max",
+        "hbo"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://auth.hbomax.com/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "prime-video",
+      "name": "Prime Video",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.primevideo.com",
+      "brandColor": "#00A8E1",
+      "logo": {
+        "monogram": "PV"
+      },
+      "aliases": [
+        "amazon prime video"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.amazon.de/gp/primecentral",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "apple-tv",
+      "name": "Apple TV",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://tv.apple.com",
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "TV"
+      },
+      "aliases": [
+        "apple tv+",
+        "appletv"
+      ],
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "skyshowtime",
+      "name": "SkyShowtime",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.skyshowtime.com",
+      "brandColor": "#2B2B6F",
+      "logo": {
+        "monogram": "SS"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "voyo",
+      "name": "Voyo",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://voyo.nova.cz",
+      "brandColor": "#E4002B",
+      "logo": {
+        "monogram": "V"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "oneplay",
+      "name": "Oneplay",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.oneplay.cz",
+      "brandColor": "#5A2DF3",
+      "logo": {
+        "monogram": "O"
+      },
+      "aliases": [
+        "o2 tv",
+        "oneplay.cz"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "youtube-premium",
+      "name": "YouTube Premium",
+      "categoryIds": [
+        "video",
+        "music"
+      ],
+      "website": "https://www.youtube.com/premium",
+      "brandColor": "#FF0000",
+      "logo": {
+        "monogram": "YT"
+      },
+      "aliases": [
+        "youtube",
+        "yt premium"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.youtube.com/paid_memberships",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-12"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuální",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "239",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "family",
+          "name": "Rodinný",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "459",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "student",
+          "name": "Studentský",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "149",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "lite",
+          "name": "Premium Lite",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "149",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://www.crunchyroll.com",
+      "brandColor": "#F47521",
+      "logo": {
+        "monogram": "CR"
+      },
+      "aliases": [
+        "anime"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.crunchyroll.com/account/membership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "categoryIds": [
+        "music"
+      ],
+      "website": "https://www.spotify.com",
+      "brandColor": "#1DB954",
+      "logo": {
+        "monogram": "S"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.spotify.com/account/subscription/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-12"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Premium Individual",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "185",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "duo",
+          "name": "Premium Duo",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "249",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "family",
+          "name": "Premium Family",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "299",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "student",
+          "name": "Premium Student",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "97",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "apple-music",
+      "name": "Apple Music",
+      "categoryIds": [
+        "music"
+      ],
+      "website": "https://music.apple.com",
+      "brandColor": "#FA243C",
+      "logo": {
+        "monogram": "AM"
+      },
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "categoryIds": [
+        "music"
+      ],
+      "website": "https://music.youtube.com",
+      "brandColor": "#FF0000",
+      "logo": {
+        "monogram": "YM"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.youtube.com/paid_memberships",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal",
+      "categoryIds": [
+        "music"
+      ],
+      "website": "https://tidal.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "T"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.tidal.com/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "categoryIds": [
+        "music"
+      ],
+      "website": "https://www.deezer.com",
+      "brandColor": "#A238FF",
+      "logo": {
+        "monogram": "D"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.deezer.com/account/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "audible",
+      "name": "Audible",
+      "categoryIds": [
+        "music",
+        "education"
+      ],
+      "website": "https://www.audible.com",
+      "brandColor": "#F7991C",
+      "logo": {
+        "monogram": "Au"
+      },
+      "aliases": [
+        "audiobooks",
+        "audioknihy"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.audible.com/account/overview",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "storytel",
+      "name": "Storytel",
+      "categoryIds": [
+        "music",
+        "education"
+      ],
+      "website": "https://www.storytel.com",
+      "brandColor": "#FF5C28",
+      "logo": {
+        "monogram": "St"
+      },
+      "aliases": [
+        "audioknihy"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://chatgpt.com",
+      "brandColor": "#10A37F",
+      "logo": {
+        "monogram": "GPT"
+      },
+      "aliases": [
+        "openai",
+        "gpt",
+        "chat gpt"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://chatgpt.com/#settings/Subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "plus",
+          "name": "Plus",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "20",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "pro",
+          "name": "Pro",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "200",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "categoryIds": [
+        "ai",
+        "ai-dev"
+      ],
+      "website": "https://claude.ai",
+      "brandColor": "#D97757",
+      "logo": {
+        "monogram": "C"
+      },
+      "aliases": [
+        "anthropic",
+        "claude code"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://claude.ai/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "20",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "pro-yearly",
+          "name": "Pro (ročně)",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "204",
+              "currency": "USD",
+              "cycle": {
+                "unit": "year",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "max-5x",
+          "name": "Max 5x",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "100",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "max-20x",
+          "name": "Max 20x",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "200",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Pro",
+      "categoryIds": [
+        "ai",
+        "cloud"
+      ],
+      "website": "https://one.google.com",
+      "brandColor": "#4285F4",
+      "logo": {
+        "monogram": "G"
+      },
+      "aliases": [
+        "gemini",
+        "google one ai",
+        "google ai ultra"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://one.google.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "ai-plus",
+          "name": "Google AI Plus",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "149.99",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "ai-pro",
+          "name": "Google AI Pro",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "549.99",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://www.perplexity.ai",
+      "brandColor": "#20808D",
+      "logo": {
+        "monogram": "P"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.perplexity.ai/account/details",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "20",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "copilot-pro",
+      "name": "Microsoft Copilot",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://copilot.microsoft.com",
+      "brandColor": "#0078D4",
+      "logo": {
+        "monogram": "Co"
+      },
+      "aliases": [
+        "copilot pro"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.microsoft.com/services",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "manageURL": "https://account.microsoft.com/services"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral Le Chat",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://mistral.ai",
+      "brandColor": "#FA520F",
+      "logo": {
+        "monogram": "M"
+      },
+      "aliases": [
+        "le chat"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://grok.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Gk"
+      },
+      "aliases": [
+        "x premium",
+        "xai",
+        "grok bot",
+        "grokbot",
+        "supergrok",
+        "grok imagine"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://www.midjourney.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "MJ"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.midjourney.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "basic",
+          "name": "Basic",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "10",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "30",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "pro",
+          "name": "Pro",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "60",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "mega",
+          "name": "Mega",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "120",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://elevenlabs.io",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "11"
+      },
+      "aliases": [
+        "eleven labs"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://elevenlabs.io/app/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "categoryIds": [
+        "ai",
+        "music"
+      ],
+      "website": "https://suno.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Su"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "categoryIds": [
+        "ai"
+      ],
+      "website": "https://runwayml.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "R"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "website": "https://cursor.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Cu"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://cursor.com/dashboard",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Pro",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "20",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "website": "https://github.com/features/copilot",
+      "brandColor": "#6E40C9",
+      "logo": {
+        "monogram": "GC"
+      },
+      "aliases": [
+        "copilot"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://github.com/settings/copilot",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "pro",
+          "name": "Copilot Pro",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "10",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "website": "https://windsurf.com",
+      "brandColor": "#09B6A2",
+      "logo": {
+        "monogram": "W"
+      },
+      "aliases": [
+        "codeium"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://windsurf.com/subscription/manage-plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "website": "https://v0.app",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "v0"
+      },
+      "aliases": [
+        "vercel v0"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "website": "https://lovable.dev",
+      "brandColor": "#FF4F5A",
+      "logo": {
+        "monogram": "L"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://lovable.dev/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt.new",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "website": "https://bolt.new",
+      "brandColor": "#1389FD",
+      "logo": {
+        "monogram": "B"
+      },
+      "aliases": [
+        "bolt"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "categoryIds": [
+        "ai-dev",
+        "dev"
+      ],
+      "website": "https://replit.com",
+      "brandColor": "#F26207",
+      "logo": {
+        "monogram": "Re"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://replit.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "categoryIds": [
+        "productivity",
+        "dev"
+      ],
+      "website": "https://linear.app",
+      "brandColor": "#5E6AD2",
+      "logo": {
+        "monogram": "L"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "manual",
+          "url": "https://linear.app/docs/billing-and-plans",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "V Linearu otevři Settings → Billing (adresa obsahuje název tvého workspace).",
+              "Zvol Downgrade / Cancel subscription."
+            ],
+            "en": [
+              "In Linear open Settings → Billing (URL contains your workspace).",
+              "Choose Downgrade / Cancel subscription."
+            ]
+          }
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://www.notion.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "N"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "manual",
+          "url": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "V Notionu otevři Settings → Billing (Fakturace).",
+              "Zvol Change plan / Downgrade na Free.",
+              "U workspace s více členy to může udělat jen vlastník."
+            ],
+            "en": [
+              "In Notion open Settings → Billing.",
+              "Choose Change plan / Downgrade to Free.",
+              "Only the workspace owner can do this."
+            ]
+          }
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "categoryIds": [
+        "productivity",
+        "dev"
+      ],
+      "website": "https://www.figma.com",
+      "brandColor": "#F24E1E",
+      "logo": {
+        "monogram": "F"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "manual",
+          "url": "https://help.figma.com/hc/en-us/articles/360041064814",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "Ve Figmě otevři tým → Settings → Plan.",
+              "Zvol Cancel plan / Downgrade."
+            ],
+            "en": [
+              "In Figma open your team → Settings → Plan.",
+              "Choose Cancel plan / Downgrade."
+            ]
+          }
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://slack.com",
+      "brandColor": "#4A154B",
+      "logo": {
+        "monogram": "Sl"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "manual",
+          "url": "https://slack.com/help/articles/218915077",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "Ve Slacku: název workspace → Settings & administration → Billing.",
+              "Zvol Change plan → Free."
+            ],
+            "en": [
+              "In Slack: workspace name → Settings & administration → Billing.",
+              "Choose Change plan → Free."
+            ]
+          }
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://miro.com",
+      "brandColor": "#FFD02F",
+      "logo": {
+        "monogram": "Mi"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://miro.com/app/settings/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://www.todoist.com",
+      "brandColor": "#E44332",
+      "logo": {
+        "monogram": "Td"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.todoist.com/app/settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://www.raycast.com",
+      "brandColor": "#FF6363",
+      "logo": {
+        "monogram": "Ra"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://www.canva.com",
+      "brandColor": "#00C4CC",
+      "logo": {
+        "monogram": "Ca"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.canva.com/settings/billing-and-plans",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "adobe-cc",
+      "name": "Adobe Creative Cloud",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://www.adobe.com/creativecloud.html",
+      "brandColor": "#FA0F00",
+      "logo": {
+        "monogram": "Ad"
+      },
+      "aliases": [
+        "adobe",
+        "photoshop",
+        "lightroom"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.adobe.com/plans",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "categoryIds": [
+        "productivity",
+        "cloud"
+      ],
+      "website": "https://www.microsoft.com/microsoft-365",
+      "brandColor": "#D83B01",
+      "logo": {
+        "monogram": "365"
+      },
+      "aliases": [
+        "office",
+        "onedrive",
+        "word",
+        "excel"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.microsoft.com/services",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "manageURL": "https://account.microsoft.com/services"
+    },
+    {
+      "id": "google-workspace",
+      "name": "Google Workspace",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://workspace.google.com",
+      "brandColor": "#4285F4",
+      "logo": {
+        "monogram": "GW"
+      },
+      "aliases": [
+        "gsuite",
+        "g suite"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://www.grammarly.com",
+      "brandColor": "#15C39A",
+      "logo": {
+        "monogram": "Gr"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.grammarly.com/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "categoryIds": [
+        "productivity",
+        "ai"
+      ],
+      "website": "https://www.deepl.com",
+      "brandColor": "#0F2B46",
+      "logo": {
+        "monogram": "DL"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://zoom.us",
+      "brandColor": "#0B5CFF",
+      "logo": {
+        "monogram": "Z"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://zoom.us/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://github.com",
+      "brandColor": "#181717",
+      "logo": {
+        "monogram": "GH"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://vercel.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "▲"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://vercel.com/account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://www.netlify.com",
+      "brandColor": "#05BDBA",
+      "logo": {
+        "monogram": "Nf"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://supabase.com",
+      "brandColor": "#3ECF8E",
+      "logo": {
+        "monogram": "Sb"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://supabase.com/dashboard/org/_/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://www.cloudflare.com",
+      "brandColor": "#F38020",
+      "logo": {
+        "monogram": "CF"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dash.cloudflare.com/?to=/:account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "apple-developer",
+      "name": "Apple Developer Program",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://developer.apple.com/programs/",
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "AD"
+      },
+      "aliases": [
+        "developer program"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://developer.apple.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains",
+      "name": "JetBrains",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://www.jetbrains.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "JB"
+      },
+      "aliases": [
+        "intellij",
+        "webstorm",
+        "pycharm"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.jetbrains.com/licenses",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "categoryIds": [
+        "dev"
+      ],
+      "website": "https://sentry.io",
+      "brandColor": "#362D59",
+      "logo": {
+        "monogram": "Se"
+      },
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "icloud-plus",
+      "name": "iCloud+",
+      "categoryIds": [
+        "cloud"
+      ],
+      "website": "https://www.apple.com/icloud/",
+      "brandColor": "#3693F3",
+      "logo": {
+        "monogram": "iC"
+      },
+      "aliases": [
+        "icloud"
+      ],
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "50gb",
+          "name": "50 GB",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "25",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "200gb",
+          "name": "200 GB",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "79",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "2tb",
+          "name": "2 TB",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "249",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "6tb",
+          "name": "6 TB",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "749",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "id": "12tb",
+          "name": "12 TB",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "1490",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "google-one",
+      "name": "Google One",
+      "categoryIds": [
+        "cloud"
+      ],
+      "website": "https://one.google.com",
+      "brandColor": "#4285F4",
+      "logo": {
+        "monogram": "G1"
+      },
+      "aliases": [
+        "google drive"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://one.google.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "categoryIds": [
+        "cloud"
+      ],
+      "website": "https://www.dropbox.com",
+      "brandColor": "#0061FF",
+      "logo": {
+        "monogram": "Db"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.dropbox.com/account/plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "apple-one",
+      "name": "Apple One",
+      "categoryIds": [
+        "cloud",
+        "video",
+        "music"
+      ],
+      "website": "https://www.apple.com/apple-one/",
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "A1"
+      },
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "1password",
+      "name": "1Password",
+      "categoryIds": [
+        "security"
+      ],
+      "website": "https://1password.com",
+      "brandColor": "#0094F5",
+      "logo": {
+        "monogram": "1P"
+      },
+      "aliases": [
+        "one password"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.1password.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "categoryIds": [
+        "security"
+      ],
+      "website": "https://bitwarden.com",
+      "brandColor": "#175DDC",
+      "logo": {
+        "monogram": "Bw"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://vault.bitwarden.com/#/settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "categoryIds": [
+        "security"
+      ],
+      "website": "https://nordvpn.com",
+      "brandColor": "#4687FF",
+      "logo": {
+        "monogram": "NV"
+      },
+      "aliases": [
+        "nord"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.nordaccount.com/billing/my-subscriptions/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "proton",
+      "name": "Proton",
+      "categoryIds": [
+        "security",
+        "cloud"
+      ],
+      "website": "https://proton.me",
+      "brandColor": "#6D4AFF",
+      "logo": {
+        "monogram": "Pr"
+      },
+      "aliases": [
+        "proton mail",
+        "proton vpn",
+        "proton unlimited"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.proton.me/u/0/dashboard",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "xbox-game-pass",
+      "name": "Xbox Game Pass",
+      "categoryIds": [
+        "gaming"
+      ],
+      "website": "https://www.xbox.com/xbox-game-pass",
+      "brandColor": "#107C10",
+      "logo": {
+        "monogram": "X"
+      },
+      "aliases": [
+        "xbox",
+        "game pass"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.microsoft.com/services",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "manageURL": "https://account.microsoft.com/services"
+    },
+    {
+      "id": "playstation-plus",
+      "name": "PlayStation Plus",
+      "categoryIds": [
+        "gaming"
+      ],
+      "website": "https://www.playstation.com/ps-plus/",
+      "brandColor": "#003791",
+      "logo": {
+        "monogram": "PS"
+      },
+      "aliases": [
+        "ps plus",
+        "psn"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "nintendo-switch-online",
+      "name": "Nintendo Switch Online",
+      "categoryIds": [
+        "gaming"
+      ],
+      "website": "https://www.nintendo.com/switch/online/",
+      "brandColor": "#E60012",
+      "logo": {
+        "monogram": "NS"
+      },
+      "aliases": [
+        "nintendo"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "apple-arcade",
+      "name": "Apple Arcade",
+      "categoryIds": [
+        "gaming"
+      ],
+      "website": "https://www.apple.com/apple-arcade/",
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "AA"
+      },
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "geforce-now",
+      "name": "GeForce NOW",
+      "categoryIds": [
+        "gaming"
+      ],
+      "website": "https://www.nvidia.com/geforce-now/",
+      "brandColor": "#76B900",
+      "logo": {
+        "monogram": "GN"
+      },
+      "aliases": [
+        "nvidia"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.nvidia.com/account/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "seznam-zpravy",
+      "name": "Seznam Zprávy",
+      "categoryIds": [
+        "news"
+      ],
+      "website": "https://www.seznamzpravy.cz",
+      "brandColor": "#CC0000",
+      "logo": {
+        "monogram": "SZ"
+      },
+      "aliases": [
+        "seznam"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "respekt",
+      "name": "Respekt",
+      "categoryIds": [
+        "news"
+      ],
+      "website": "https://www.respekt.cz",
+      "brandColor": "#E30613",
+      "logo": {
+        "monogram": "Rp"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.respekt.cz/predplatne",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "denik-n",
+      "name": "Deník N",
+      "categoryIds": [
+        "news"
+      ],
+      "website": "https://denikn.cz",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "N"
+      },
+      "aliases": [
+        "denik n"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "categoryIds": [
+        "news"
+      ],
+      "website": "https://medium.com",
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Md"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://medium.com/me/settings/membership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "kindle-unlimited",
+      "name": "Kindle Unlimited",
+      "categoryIds": [
+        "news",
+        "education"
+      ],
+      "website": "https://www.amazon.com/kindle-dbs/hz/subscribe/ku",
+      "brandColor": "#FF9900",
+      "logo": {
+        "monogram": "KU"
+      },
+      "aliases": [
+        "kindle"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.amazon.com/kindle-dbs/ku/ku-central",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "categoryIds": [
+        "fitness"
+      ],
+      "website": "https://www.strava.com",
+      "brandColor": "#FC4C02",
+      "logo": {
+        "monogram": "St"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.strava.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "apple-fitness",
+      "name": "Apple Fitness+",
+      "categoryIds": [
+        "fitness"
+      ],
+      "website": "https://www.apple.com/apple-fitness-plus/",
+      "brandColor": "#A3F94B",
+      "logo": {
+        "monogram": "F+"
+      },
+      "aliases": [
+        "fitness+"
+      ],
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "headspace",
+      "name": "Headspace",
+      "categoryIds": [
+        "fitness"
+      ],
+      "website": "https://www.headspace.com",
+      "brandColor": "#FF7E1D",
+      "logo": {
+        "monogram": "Hs"
+      },
+      "aliases": [
+        "meditace"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.headspace.com/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "name": "Calm",
+      "categoryIds": [
+        "fitness"
+      ],
+      "website": "https://www.calm.com",
+      "brandColor": "#2E62C9",
+      "logo": {
+        "monogram": "Cm"
+      },
+      "aliases": [
+        "meditace"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "categoryIds": [
+        "education"
+      ],
+      "website": "https://www.duolingo.com",
+      "brandColor": "#58CC02",
+      "logo": {
+        "monogram": "Du"
+      },
+      "aliases": [
+        "super duolingo"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.duolingo.com/settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "categoryIds": [
+        "education"
+      ],
+      "website": "https://www.coursera.org",
+      "brandColor": "#0056D2",
+      "logo": {
+        "monogram": "Cs"
+      },
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.coursera.org/my-purchases",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-premium",
+      "name": "LinkedIn Premium",
+      "categoryIds": [
+        "education",
+        "productivity"
+      ],
+      "website": "https://www.linkedin.com/premium/",
+      "brandColor": "#0A66C2",
+      "logo": {
+        "monogram": "in"
+      },
+      "aliases": [
+        "linkedin"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.linkedin.com/premium/manage/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "categoryIds": [
+        "shopping",
+        "video"
+      ],
+      "website": "https://www.amazon.de/prime",
+      "brandColor": "#FF9900",
+      "logo": {
+        "monogram": "aP"
+      },
+      "aliases": [
+        "prime"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.amazon.de/gp/primecentral",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "wolt-plus",
+      "name": "Wolt+",
+      "categoryIds": [
+        "shopping"
+      ],
+      "website": "https://wolt.com",
+      "brandColor": "#009DE0",
+      "logo": {
+        "monogram": "W+"
+      },
+      "aliases": [
+        "wolt"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://wolt.com/cs/cze/me/wolt-plus",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "rohlik",
+      "name": "Rohlík Premium",
+      "categoryIds": [
+        "shopping"
+      ],
+      "website": "https://www.rohlik.cz",
+      "brandColor": "#6DA544",
+      "logo": {
+        "monogram": "Rk"
+      },
+      "aliases": [
+        "rohlik",
+        "rohlik.cz"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "paramount-plus",
+      "name": "Paramount+",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#0064FF",
+      "logo": {
+        "monogram": "P+"
+      },
+      "website": "https://www.paramountplus.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.paramountplus.com/account/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mubi",
+      "name": "MUBI",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#001489",
+      "logo": {
+        "monogram": "MU"
+      },
+      "website": "https://mubi.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://mubi.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#F8F8F5",
+      "logo": {
+        "monogram": "DZ"
+      },
+      "website": "https://www.dazn.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "canal-plus",
+      "name": "Canal+",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "C+"
+      },
+      "website": "https://www.canalplus.com",
+      "aliases": [
+        "canal plus",
+        "skylink"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Pk"
+      },
+      "website": "https://www.peacocktv.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.peacocktv.com/account/plans",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#1CE783",
+      "logo": {
+        "monogram": "Hu"
+      },
+      "website": "https://www.hulu.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://secure.hulu.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "curiositystream",
+      "name": "CuriosityStream",
+      "categoryIds": [
+        "video",
+        "education"
+      ],
+      "brandColor": "#E67E22",
+      "logo": {
+        "monogram": "CS"
+      },
+      "website": "https://curiositystream.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#3D7CF4",
+      "logo": {
+        "monogram": "Ne"
+      },
+      "website": "https://nebula.tv",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "twitch-turbo",
+      "name": "Twitch Turbo",
+      "categoryIds": [
+        "video",
+        "gaming"
+      ],
+      "brandColor": "#9146FF",
+      "logo": {
+        "monogram": "Tw"
+      },
+      "website": "https://www.twitch.tv/turbo",
+      "aliases": [
+        "twitch"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "plex-pass",
+      "name": "Plex Pass",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#E5A00D",
+      "logo": {
+        "monogram": "Px"
+      },
+      "website": "https://www.plex.tv/plex-pass/",
+      "aliases": [
+        "plex"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ivysilani",
+      "name": "iVysílání (ČT)",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#0B3A76",
+      "logo": {
+        "monogram": "ČT"
+      },
+      "website": "https://www.ceskatelevize.cz/ivysilani/",
+      "aliases": [
+        "ceska televize"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "prima-plus",
+      "name": "Prima+",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#E2001A",
+      "logo": {
+        "monogram": "Pr+"
+      },
+      "website": "https://www.iprima.cz",
+      "aliases": [
+        "iprima",
+        "prima plus"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "magio",
+      "name": "Magio TV",
+      "categoryIds": [
+        "video"
+      ],
+      "brandColor": "#E20074",
+      "logo": {
+        "monogram": "Mg"
+      },
+      "website": "https://www.telekom.cz",
+      "aliases": [
+        "telekom tv"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "categoryIds": [
+        "video",
+        "productivity"
+      ],
+      "brandColor": "#1AB7EA",
+      "logo": {
+        "monogram": "Vm"
+      },
+      "website": "https://vimeo.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "amazon-music",
+      "name": "Amazon Music Unlimited",
+      "categoryIds": [
+        "music"
+      ],
+      "brandColor": "#25D1DA",
+      "logo": {
+        "monogram": "AM"
+      },
+      "website": "https://music.amazon.com",
+      "aliases": [
+        "amazon music"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud Go+",
+      "categoryIds": [
+        "music"
+      ],
+      "brandColor": "#FF5500",
+      "logo": {
+        "monogram": "SC"
+      },
+      "website": "https://soundcloud.com",
+      "aliases": [
+        "soundcloud"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "qobuz",
+      "name": "Qobuz",
+      "categoryIds": [
+        "music"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Qb"
+      },
+      "website": "https://www.qobuz.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "pocket-casts",
+      "name": "Pocket Casts Plus",
+      "categoryIds": [
+        "music"
+      ],
+      "brandColor": "#F43E37",
+      "logo": {
+        "monogram": "PC"
+      },
+      "website": "https://pocketcasts.com",
+      "aliases": [
+        "pocketcasts"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "overcast",
+      "name": "Overcast Premium",
+      "categoryIds": [
+        "music"
+      ],
+      "brandColor": "#FC7E0F",
+      "logo": {
+        "monogram": "Oc"
+      },
+      "website": "https://overcast.fm",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "spotify-audiobooks",
+      "name": "Spotify Audiobooks+",
+      "categoryIds": [
+        "music",
+        "education"
+      ],
+      "brandColor": "#1DB954",
+      "logo": {
+        "monogram": "SA"
+      },
+      "website": "https://www.spotify.com/audiobooks/",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.spotify.com/account/subscription/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bookbeat",
+      "name": "BookBeat",
+      "categoryIds": [
+        "music",
+        "education"
+      ],
+      "brandColor": "#FF5A78",
+      "logo": {
+        "monogram": "BB"
+      },
+      "website": "https://www.bookbeat.com",
+      "aliases": [
+        "audioknihy"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.bookbeat.com/cz/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "palmknihy",
+      "name": "Palmknihy",
+      "categoryIds": [
+        "news",
+        "education"
+      ],
+      "brandColor": "#E30613",
+      "logo": {
+        "monogram": "Pa"
+      },
+      "website": "https://www.palmknihy.cz",
+      "aliases": [
+        "audioknihy",
+        "e-knihy"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "audiolibrix",
+      "name": "Audiolibrix",
+      "categoryIds": [
+        "music",
+        "education"
+      ],
+      "brandColor": "#2E7D32",
+      "logo": {
+        "monogram": "AL"
+      },
+      "website": "https://www.audiolibrix.com",
+      "aliases": [
+        "audioknihy"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "splice",
+      "name": "Splice",
+      "categoryIds": [
+        "music",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Sp"
+      },
+      "website": "https://splice.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-pro",
+      "name": "ChatGPT Pro",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#10A37F",
+      "logo": {
+        "monogram": "GP"
+      },
+      "website": "https://chatgpt.com",
+      "aliases": [
+        "openai pro"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "openai-api",
+      "name": "OpenAI API",
+      "categoryIds": [
+        "ai",
+        "dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "OA"
+      },
+      "website": "https://platform.openai.com",
+      "aliases": [
+        "openai platform"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://platform.openai.com/settings/organization/billing/overview",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-api",
+      "name": "Claude API (Anthropic Console)",
+      "categoryIds": [
+        "ai",
+        "dev"
+      ],
+      "brandColor": "#D97757",
+      "logo": {
+        "monogram": "AN"
+      },
+      "website": "https://console.anthropic.com",
+      "aliases": [
+        "anthropic console",
+        "claude console"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://console.anthropic.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "google-ai-ultra",
+      "name": "Google AI Ultra",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#4285F4",
+      "logo": {
+        "monogram": "GU"
+      },
+      "website": "https://one.google.com",
+      "aliases": [
+        "gemini ultra"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#5D5CDE",
+      "logo": {
+        "monogram": "Po"
+      },
+      "website": "https://poe.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "cA"
+      },
+      "website": "https://character.ai",
+      "aliases": [
+        "c.ai"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#FA4028",
+      "logo": {
+        "monogram": "Ja"
+      },
+      "website": "https://www.jasper.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "NA"
+      },
+      "website": "https://www.notion.com/product/ai",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "manual",
+          "url": "https://www.notion.com/help/notion-ai-faqs",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "Settings → Billing → Notion AI → Remove."
+            ],
+            "en": [
+              "Settings → Billing → Notion AI → Remove."
+            ]
+          }
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo.Ai",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#6E3CF0",
+      "logo": {
+        "monogram": "Le"
+      },
+      "website": "https://leonardo.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Id"
+      },
+      "website": "https://ideogram.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Pi"
+      },
+      "website": "https://pika.art",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "kling",
+      "name": "Kling AI",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Kl"
+      },
+      "website": "https://klingai.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "luma",
+      "name": "Luma Dream Machine",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Lu"
+      },
+      "website": "https://lumalabs.ai",
+      "aliases": [
+        "dream machine"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#5B3EF5",
+      "logo": {
+        "monogram": "HG"
+      },
+      "website": "https://www.heygen.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#3E57DA",
+      "logo": {
+        "monogram": "Sy"
+      },
+      "website": "https://www.synthesia.io",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "De"
+      },
+      "website": "https://www.descript.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "otter",
+      "name": "Otter.ai",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#3478F6",
+      "logo": {
+        "monogram": "Ot"
+      },
+      "website": "https://otter.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies.ai",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#E91E63",
+      "logo": {
+        "monogram": "Ff"
+      },
+      "website": "https://fireflies.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "krisp",
+      "name": "Krisp",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Kr"
+      },
+      "website": "https://krisp.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "categoryIds": [
+        "ai",
+        "music"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ud"
+      },
+      "website": "https://www.udio.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "you-com",
+      "name": "You.com",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#6C47FF",
+      "logo": {
+        "monogram": "Yo"
+      },
+      "website": "https://you.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek API",
+      "categoryIds": [
+        "ai",
+        "dev"
+      ],
+      "brandColor": "#4D6BFE",
+      "logo": {
+        "monogram": "DS"
+      },
+      "website": "https://platform.deepseek.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "categoryIds": [
+        "ai",
+        "dev"
+      ],
+      "brandColor": "#6566F1",
+      "logo": {
+        "monogram": "OR"
+      },
+      "website": "https://openrouter.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#4E8A3E",
+      "logo": {
+        "monogram": "Gn"
+      },
+      "website": "https://www.granola.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "superwhisper",
+      "name": "Superwhisper",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "SW"
+      },
+      "website": "https://superwhisper.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "wispr-flow",
+      "name": "Wispr Flow",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "WF"
+      },
+      "website": "https://wisprflow.ai",
+      "aliases": [
+        "wispr"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#7C3AED",
+      "logo": {
+        "monogram": "Ga"
+      },
+      "website": "https://gamma.app",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "categoryIds": [
+        "ai",
+        "productivity"
+      ],
+      "brandColor": "#2A2AE0",
+      "logo": {
+        "monogram": "BA"
+      },
+      "website": "https://www.beautiful.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "categoryIds": [
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ma"
+      },
+      "website": "https://manus.im",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "OpenAI Codex",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Cx"
+      },
+      "website": "https://chatgpt.com/codex",
+      "aliases": [
+        "codex"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains-ai",
+      "name": "JetBrains AI",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "JA"
+      },
+      "website": "https://www.jetbrains.com/ai/",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#6B35FF",
+      "logo": {
+        "monogram": "Tn"
+      },
+      "website": "https://www.tabnine.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "categoryIds": [
+        "ai-dev",
+        "dev"
+      ],
+      "brandColor": "#01A4FF",
+      "logo": {
+        "monogram": "Wa"
+      },
+      "website": "https://www.warp.dev",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "categoryIds": [
+        "ai-dev",
+        "dev"
+      ],
+      "brandColor": "#084CCF",
+      "logo": {
+        "monogram": "Zd"
+      },
+      "website": "https://zed.dev",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Dv"
+      },
+      "website": "https://devin.ai",
+      "aliases": [
+        "cognition"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "sourcegraph",
+      "name": "Sourcegraph Amp",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#A112FF",
+      "logo": {
+        "monogram": "Am"
+      },
+      "website": "https://sourcegraph.com",
+      "aliases": [
+        "cody",
+        "amp"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "coderabbit",
+      "name": "CodeRabbit",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#FF570A",
+      "logo": {
+        "monogram": "CR"
+      },
+      "website": "https://www.coderabbit.ai",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "greptile",
+      "name": "Greptile",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Gt"
+      },
+      "website": "https://www.greptile.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "gemini-code",
+      "name": "Gemini Code Assist",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#4285F4",
+      "logo": {
+        "monogram": "GC"
+      },
+      "website": "https://codeassist.google",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "augment",
+      "name": "Augment Code",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Au"
+      },
+      "website": "https://www.augmentcode.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "name": "Factory",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Fa"
+      },
+      "website": "https://factory.ai",
+      "aliases": [
+        "droids"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Cl"
+      },
+      "website": "https://cline.bot",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "categoryIds": [
+        "ai-dev"
+      ],
+      "brandColor": "#7B3FE4",
+      "logo": {
+        "monogram": "Ki"
+      },
+      "website": "https://kiro.dev",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#F06A6A",
+      "logo": {
+        "monogram": "As"
+      },
+      "website": "https://asana.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.asana.com/0/admin/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#0079BF",
+      "logo": {
+        "monogram": "Tr"
+      },
+      "website": "https://trello.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://trello.com/your/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#7B68EE",
+      "logo": {
+        "monogram": "CU"
+      },
+      "website": "https://clickup.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.clickup.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "monday",
+      "name": "monday.com",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#FF3D57",
+      "logo": {
+        "monogram": "mo"
+      },
+      "website": "https://monday.com",
+      "aliases": [
+        "monday"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "categoryIds": [
+        "productivity",
+        "dev"
+      ],
+      "brandColor": "#0052CC",
+      "logo": {
+        "monogram": "Ji"
+      },
+      "website": "https://www.atlassian.com/software/jira",
+      "aliases": [
+        "atlassian"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#0052CC",
+      "logo": {
+        "monogram": "Cf"
+      },
+      "website": "https://www.atlassian.com/software/confluence",
+      "aliases": [
+        "atlassian"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#18BFFF",
+      "logo": {
+        "monogram": "At"
+      },
+      "website": "https://www.airtable.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://airtable.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "coda",
+      "name": "Coda",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#EE5A29",
+      "logo": {
+        "monogram": "Cd"
+      },
+      "website": "https://coda.io",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#625DF5",
+      "logo": {
+        "monogram": "Lo"
+      },
+      "website": "https://www.loom.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.loom.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#006BFF",
+      "logo": {
+        "monogram": "Ca"
+      },
+      "website": "https://calendly.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://calendly.com/app/admin/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Cc"
+      },
+      "website": "https://cal.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "things",
+      "name": "Things 3",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#1D8CFF",
+      "logo": {
+        "monogram": "Th"
+      },
+      "website": "https://culturedcode.com/things/",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#7B61FF",
+      "logo": {
+        "monogram": "Su"
+      },
+      "website": "https://superhuman.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "name": "Craft",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Cr"
+      },
+      "website": "https://www.craft.do",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian Sync",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#7C3AED",
+      "logo": {
+        "monogram": "Ob"
+      },
+      "website": "https://obsidian.md",
+      "aliases": [
+        "obsidian"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bear",
+      "name": "Bear Pro",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#DD4C4F",
+      "logo": {
+        "monogram": "Be"
+      },
+      "website": "https://bear.app",
+      "aliases": [
+        "bear"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#00A82D",
+      "logo": {
+        "monogram": "Ev"
+      },
+      "website": "https://evernote.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.evernote.com/Settings.action",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ticktick",
+      "name": "TickTick",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#4772FA",
+      "logo": {
+        "monogram": "TT"
+      },
+      "website": "https://ticktick.com",
+      "aliases": [
+        "ticktick"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "fantastical",
+      "name": "Fantastical",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#E5352B",
+      "logo": {
+        "monogram": "Fn"
+      },
+      "website": "https://flexibits.com/fantastical",
+      "aliases": [
+        "flexibits"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "cleanshot",
+      "name": "CleanShot Cloud",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#3F80EA",
+      "logo": {
+        "monogram": "CS"
+      },
+      "website": "https://cleanshot.com",
+      "aliases": [
+        "cleanshot x"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "setapp",
+      "name": "Setapp",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#2D2D2D",
+      "logo": {
+        "monogram": "Se"
+      },
+      "website": "https://setapp.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.setapp.com/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "readwise",
+      "name": "Readwise",
+      "categoryIds": [
+        "productivity",
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Rw"
+      },
+      "website": "https://readwise.io",
+      "aliases": [
+        "reader"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "dia",
+      "name": "Dia / Arc",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ar"
+      },
+      "website": "https://www.diabrowser.com",
+      "aliases": [
+        "arc browser",
+        "dia"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mymind",
+      "name": "mymind",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#FF5924",
+      "logo": {
+        "monogram": "my"
+      },
+      "website": "https://mymind.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "pitch",
+      "name": "Pitch",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#5B2EFF",
+      "logo": {
+        "monogram": "Pt"
+      },
+      "website": "https://pitch.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "categoryIds": [
+        "productivity",
+        "dev"
+      ],
+      "brandColor": "#0055FF",
+      "logo": {
+        "monogram": "Fr"
+      },
+      "website": "https://www.framer.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "categoryIds": [
+        "productivity",
+        "dev"
+      ],
+      "brandColor": "#146EF5",
+      "logo": {
+        "monogram": "Wf"
+      },
+      "website": "https://webflow.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://webflow.com/dashboard/account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Sq"
+      },
+      "website": "https://www.squarespace.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.squarespace.com/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#0C6EFC",
+      "logo": {
+        "monogram": "Wx"
+      },
+      "website": "https://www.wix.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://manage.wix.com/account/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "categoryIds": [
+        "productivity",
+        "shopping"
+      ],
+      "brandColor": "#95BF47",
+      "logo": {
+        "monogram": "Sh"
+      },
+      "website": "https://www.shopify.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.shopify.com/settings/plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#FFE01B",
+      "logo": {
+        "monogram": "MC"
+      },
+      "website": "https://mailchimp.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#FF7A59",
+      "logo": {
+        "monogram": "HS"
+      },
+      "website": "https://www.hubspot.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "docusign",
+      "name": "Docusign",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#4C00FF",
+      "logo": {
+        "monogram": "DS"
+      },
+      "website": "https://www.docusign.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "categoryIds": [
+        "productivity",
+        "dev"
+      ],
+      "brandColor": "#F7B500",
+      "logo": {
+        "monogram": "Sk"
+      },
+      "website": "https://www.sketch.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Sp"
+      },
+      "website": "https://spline.design",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "envato",
+      "name": "Envato Elements",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#82B541",
+      "logo": {
+        "monogram": "En"
+      },
+      "website": "https://elements.envato.com",
+      "aliases": [
+        "envato"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "shutterstock",
+      "name": "Shutterstock",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#EE2B24",
+      "logo": {
+        "monogram": "SS"
+      },
+      "website": "https://www.shutterstock.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut Pro",
+      "categoryIds": [
+        "productivity",
+        "ai"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "CC"
+      },
+      "website": "https://www.capcut.com",
+      "aliases": [
+        "capcut"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "final-cut",
+      "name": "Final Cut Pro (iPad)",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "FC"
+      },
+      "website": "https://www.apple.com/final-cut-pro-for-ipad/",
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "logic",
+      "name": "Logic Pro (iPad)",
+      "categoryIds": [
+        "productivity",
+        "music"
+      ],
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "LP"
+      },
+      "website": "https://www.apple.com/logic-pro-for-ipad/",
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams Essentials",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#5059C9",
+      "logo": {
+        "monogram": "MT"
+      },
+      "website": "https://www.microsoft.com/microsoft-teams/essentials",
+      "aliases": [
+        "teams"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "manageURL": "https://account.microsoft.com/services"
+    },
+    {
+      "id": "discord-nitro",
+      "name": "Discord Nitro",
+      "categoryIds": [
+        "productivity",
+        "gaming"
+      ],
+      "brandColor": "#5865F2",
+      "logo": {
+        "monogram": "Di"
+      },
+      "website": "https://discord.com/nitro",
+      "aliases": [
+        "discord",
+        "nitro"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://discord.com/settings/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "telegram-premium",
+      "name": "Telegram Premium",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#26A5E4",
+      "logo": {
+        "monogram": "Tg"
+      },
+      "website": "https://telegram.org",
+      "aliases": [
+        "telegram"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "x-premium",
+      "name": "X Premium",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "X"
+      },
+      "website": "https://x.com",
+      "aliases": [
+        "twitter",
+        "twitter blue"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://x.com/settings/manage_subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "name": "Signal (dar)",
+      "categoryIds": [
+        "productivity"
+      ],
+      "brandColor": "#3A76F0",
+      "logo": {
+        "monogram": "Si"
+      },
+      "website": "https://signal.org/donate/",
+      "aliases": [
+        "signal"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bumble",
+      "name": "Bumble Premium",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#FFC629",
+      "logo": {
+        "monogram": "Bu"
+      },
+      "website": "https://bumble.com",
+      "aliases": [
+        "bumble"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder Gold",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#FE3C72",
+      "logo": {
+        "monogram": "Ti"
+      },
+      "website": "https://tinder.com",
+      "aliases": [
+        "tinder"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "hinge",
+      "name": "Hinge+",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Hi"
+      },
+      "website": "https://hinge.co",
+      "aliases": [
+        "hinge"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#FC6D26",
+      "logo": {
+        "monogram": "GL"
+      },
+      "website": "https://gitlab.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://gitlab.com/-/profile/billings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#0052CC",
+      "logo": {
+        "monogram": "Bb"
+      },
+      "website": "https://bitbucket.org",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "Amazon Web Services",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#FF9900",
+      "logo": {
+        "monogram": "AWS"
+      },
+      "website": "https://aws.amazon.com",
+      "aliases": [
+        "amazon aws"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "gcp",
+      "name": "Google Cloud",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#4285F4",
+      "logo": {
+        "monogram": "GC"
+      },
+      "website": "https://cloud.google.com",
+      "aliases": [
+        "gcp"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "azure",
+      "name": "Microsoft Azure",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#0078D4",
+      "logo": {
+        "monogram": "Az"
+      },
+      "website": "https://azure.microsoft.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#0080FF",
+      "logo": {
+        "monogram": "DO"
+      },
+      "website": "https://www.digitalocean.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://cloud.digitalocean.com/account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#D50C2D",
+      "logo": {
+        "monogram": "Hz"
+      },
+      "website": "https://www.hetzner.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://accounts.hetzner.com",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "Railway",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Rw"
+      },
+      "website": "https://railway.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://railway.com/account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "name": "Render",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Rn"
+      },
+      "website": "https://render.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dashboard.render.com/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "fly-io",
+      "name": "Fly.io",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#7B3BE2",
+      "logo": {
+        "monogram": "Fl"
+      },
+      "website": "https://fly.io",
+      "aliases": [
+        "fly"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#430098",
+      "logo": {
+        "monogram": "He"
+      },
+      "website": "https://www.heroku.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dashboard.heroku.com/account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#FFCA28",
+      "logo": {
+        "monogram": "Fb"
+      },
+      "website": "https://firebase.google.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#00E599",
+      "logo": {
+        "monogram": "Nn"
+      },
+      "website": "https://neon.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "planetscale",
+      "name": "PlanetScale",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "PS"
+      },
+      "website": "https://planetscale.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB Atlas",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#47A248",
+      "logo": {
+        "monogram": "Mg"
+      },
+      "website": "https://www.mongodb.com/atlas",
+      "aliases": [
+        "atlas"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "name": "Datadog",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#632CA6",
+      "logo": {
+        "monogram": "Dd"
+      },
+      "website": "https://www.datadoghq.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#F54E00",
+      "logo": {
+        "monogram": "PH"
+      },
+      "website": "https://posthog.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "expo",
+      "name": "Expo EAS",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#000020",
+      "logo": {
+        "monogram": "Ex"
+      },
+      "website": "https://expo.dev",
+      "aliases": [
+        "eas"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "revenuecat",
+      "name": "RevenueCat",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#F2545B",
+      "logo": {
+        "monogram": "RC"
+      },
+      "website": "https://www.revenuecat.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#2496ED",
+      "logo": {
+        "monogram": "Dk"
+      },
+      "website": "https://www.docker.com",
+      "aliases": [
+        "docker desktop"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.docker.com/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#FF6C37",
+      "logo": {
+        "monogram": "Pm"
+      },
+      "website": "https://www.postman.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://go.postman.co/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "tower",
+      "name": "Tower",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#7A2BE2",
+      "logo": {
+        "monogram": "To"
+      },
+      "website": "https://www.git-tower.com",
+      "aliases": [
+        "git tower"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ngrok",
+      "name": "ngrok",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#1F1E37",
+      "logo": {
+        "monogram": "ng"
+      },
+      "website": "https://ngrok.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-workers",
+      "name": "Cloudflare Workers",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#F38020",
+      "logo": {
+        "monogram": "CW"
+      },
+      "website": "https://workers.cloudflare.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "namecheap",
+      "name": "Namecheap",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#DE3723",
+      "logo": {
+        "monogram": "Nc"
+      },
+      "website": "https://www.namecheap.com",
+      "aliases": [
+        "domena"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://ap.www.namecheap.com/profile/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "wedos",
+      "name": "WEDOS",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#00A6E0",
+      "logo": {
+        "monogram": "WE"
+      },
+      "website": "https://www.wedos.cz",
+      "aliases": [
+        "domena",
+        "hosting"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://client.wedos.com",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "forpsi",
+      "name": "Forpsi",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#E2001A",
+      "logo": {
+        "monogram": "Fo"
+      },
+      "website": "https://www.forpsi.com",
+      "aliases": [
+        "domena",
+        "hosting"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.forpsi.com",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "active24",
+      "name": "Active24",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#E30613",
+      "logo": {
+        "monogram": "A24"
+      },
+      "website": "https://www.active24.cz",
+      "aliases": [
+        "domena",
+        "hosting"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "godaddy",
+      "name": "GoDaddy",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#1BDBDB",
+      "logo": {
+        "monogram": "GD"
+      },
+      "website": "https://www.godaddy.com",
+      "aliases": [
+        "domena"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.godaddy.com/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "google-play-console",
+      "name": "Google Play Console",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#34A853",
+      "logo": {
+        "monogram": "GP"
+      },
+      "website": "https://play.google.com/console",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "xcode-cloud",
+      "name": "Xcode Cloud",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#1C1C1E",
+      "logo": {
+        "monogram": "XC"
+      },
+      "website": "https://developer.apple.com/xcode-cloud/",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "categoryIds": [
+        "dev",
+        "security"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ts"
+      },
+      "website": "https://tailscale.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Rs"
+      },
+      "website": "https://resend.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "algolia",
+      "name": "Algolia",
+      "categoryIds": [
+        "dev"
+      ],
+      "brandColor": "#003DFF",
+      "logo": {
+        "monogram": "Al"
+      },
+      "website": "https://www.algolia.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#0078D4",
+      "logo": {
+        "monogram": "OD"
+      },
+      "website": "https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ],
+      "manageURL": "https://account.microsoft.com/services"
+    },
+    {
+      "id": "pcloud",
+      "name": "pCloud",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#20BEC6",
+      "logo": {
+        "monogram": "pC"
+      },
+      "website": "https://www.pcloud.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.pcloud.com/#page=settings&settings=tab-plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "backblaze",
+      "name": "Backblaze",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#E21E29",
+      "logo": {
+        "monogram": "BB"
+      },
+      "website": "https://www.backblaze.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://secure.backblaze.com/account_settings.htm",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "box",
+      "name": "Box",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#0061D5",
+      "logo": {
+        "monogram": "Bx"
+      },
+      "website": "https://www.box.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mega",
+      "name": "MEGA",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#D9272E",
+      "logo": {
+        "monogram": "ME"
+      },
+      "website": "https://mega.io",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://mega.nz/fm/account/plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "sync-com",
+      "name": "Sync.com",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#1E88E5",
+      "logo": {
+        "monogram": "Sy"
+      },
+      "website": "https://www.sync.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "idrive",
+      "name": "IDrive",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#2B4C9B",
+      "logo": {
+        "monogram": "iD"
+      },
+      "website": "https://www.idrive.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "amazon-photos",
+      "name": "Amazon Photos",
+      "categoryIds": [
+        "cloud"
+      ],
+      "brandColor": "#1A98FF",
+      "logo": {
+        "monogram": "AP"
+      },
+      "website": "https://www.amazon.com/photos",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "expressvpn",
+      "name": "ExpressVPN",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#DA3940",
+      "logo": {
+        "monogram": "EV"
+      },
+      "website": "https://www.expressvpn.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.expressvpn.com/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mullvad",
+      "name": "Mullvad VPN",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#294D73",
+      "logo": {
+        "monogram": "Mv"
+      },
+      "website": "https://mullvad.net",
+      "aliases": [
+        "mullvad"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "surfshark",
+      "name": "Surfshark",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#1EBFBF",
+      "logo": {
+        "monogram": "Sf"
+      },
+      "website": "https://surfshark.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.surfshark.com/account/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "dashlane",
+      "name": "Dashlane",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#0E353D",
+      "logo": {
+        "monogram": "Dl"
+      },
+      "website": "https://www.dashlane.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.dashlane.com/#/settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "lastpass",
+      "name": "LastPass",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#D32D27",
+      "logo": {
+        "monogram": "LP"
+      },
+      "website": "https://www.lastpass.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://lastpass.com/?ac=1&lpnorefresh=1",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "keeper",
+      "name": "Keeper",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#FFC700",
+      "logo": {
+        "monogram": "Ke"
+      },
+      "website": "https://www.keepersecurity.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "eset",
+      "name": "ESET",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#00A9A6",
+      "logo": {
+        "monogram": "ES"
+      },
+      "website": "https://www.eset.com",
+      "aliases": [
+        "antivir"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "avast",
+      "name": "Avast",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#FF7800",
+      "logo": {
+        "monogram": "Av"
+      },
+      "website": "https://www.avast.com",
+      "aliases": [
+        "antivir"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "norton",
+      "name": "Norton 360",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#FFC800",
+      "logo": {
+        "monogram": "No"
+      },
+      "website": "https://www.norton.com",
+      "aliases": [
+        "antivir"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#ED1C24",
+      "logo": {
+        "monogram": "Bd"
+      },
+      "website": "https://www.bitdefender.com",
+      "aliases": [
+        "antivir"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "malwarebytes",
+      "name": "Malwarebytes",
+      "categoryIds": [
+        "security"
+      ],
+      "brandColor": "#0D3ECC",
+      "logo": {
+        "monogram": "Mw"
+      },
+      "website": "https://www.malwarebytes.com",
+      "aliases": [
+        "antivir"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ente",
+      "name": "Ente Auth / Photos",
+      "categoryIds": [
+        "security",
+        "cloud"
+      ],
+      "brandColor": "#1DB954",
+      "logo": {
+        "monogram": "En"
+      },
+      "website": "https://ente.io",
+      "aliases": [
+        "ente"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ea-play",
+      "name": "EA Play",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#FF4747",
+      "logo": {
+        "monogram": "EA"
+      },
+      "website": "https://www.ea.com/ea-play",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://myaccount.ea.com/cp-ui/subscription/index",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ubisoft-plus",
+      "name": "Ubisoft+",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#0070FF",
+      "logo": {
+        "monogram": "U+"
+      },
+      "website": "https://www.ubisoft.com/ubisoft-plus",
+      "aliases": [
+        "ubisoft"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "humble-choice",
+      "name": "Humble Choice",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#CC2929",
+      "logo": {
+        "monogram": "Hb"
+      },
+      "website": "https://www.humblebundle.com/membership",
+      "aliases": [
+        "humble bundle"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "google-play-pass",
+      "name": "Google Play Pass",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#34A853",
+      "logo": {
+        "monogram": "PP"
+      },
+      "website": "https://play.google.com/about/play-pass/",
+      "defaultBillingSource": "googlePlay",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "world-of-warcraft",
+      "name": "World of Warcraft",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#148EFF",
+      "logo": {
+        "monogram": "WoW"
+      },
+      "website": "https://worldofwarcraft.blizzard.com",
+      "aliases": [
+        "blizzard",
+        "wow"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ff14",
+      "name": "Final Fantasy XIV",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#2B3A67",
+      "logo": {
+        "monogram": "FF"
+      },
+      "website": "https://www.finalfantasyxiv.com",
+      "aliases": [
+        "ffxiv"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox Premium",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Rb"
+      },
+      "website": "https://www.roblox.com/premium/membership",
+      "aliases": [
+        "roblox"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft Realms",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#62B47A",
+      "logo": {
+        "monogram": "Mc"
+      },
+      "website": "https://www.minecraft.net/realms",
+      "aliases": [
+        "minecraft"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "chess-com",
+      "name": "Chess.com",
+      "categoryIds": [
+        "gaming",
+        "education"
+      ],
+      "brandColor": "#81B64C",
+      "logo": {
+        "monogram": "Ch"
+      },
+      "website": "https://www.chess.com/membership",
+      "aliases": [
+        "chess"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "boosteroid",
+      "name": "Boosteroid",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#7B2FF7",
+      "logo": {
+        "monogram": "Bo"
+      },
+      "website": "https://boosteroid.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "fortnite-crew",
+      "name": "Fortnite Crew",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#2BA0F8",
+      "logo": {
+        "monogram": "Fn"
+      },
+      "website": "https://www.fortnite.com",
+      "aliases": [
+        "epic games"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "xbox-cloud",
+      "name": "Xbox Cloud Gaming",
+      "categoryIds": [
+        "gaming"
+      ],
+      "brandColor": "#107C10",
+      "logo": {
+        "monogram": "XC"
+      },
+      "website": "https://www.xbox.com/play",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "hospodarske-noviny",
+      "name": "Hospodářské noviny",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#E2001A",
+      "logo": {
+        "monogram": "HN"
+      },
+      "website": "https://hn.cz",
+      "aliases": [
+        "ihned"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://predplatne.hn.cz",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "idnes-premium",
+      "name": "Lidovky / iDNES Premium",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#0A64A0",
+      "logo": {
+        "monogram": "iD"
+      },
+      "website": "https://www.idnes.cz",
+      "aliases": [
+        "idnes premium",
+        "idnes"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "forbes-cz",
+      "name": "Forbes Česko",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Fb"
+      },
+      "website": "https://forbes.cz",
+      "aliases": [
+        "forbes"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "echo24",
+      "name": "Echo24",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#C8102E",
+      "logo": {
+        "monogram": "E24"
+      },
+      "website": "https://echo24.cz",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "reporter",
+      "name": "Reportér",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Rp"
+      },
+      "website": "https://reportermagazin.cz",
+      "aliases": [
+        "reporter"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "aktualne",
+      "name": "Aktuálně.cz",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#E2001A",
+      "logo": {
+        "monogram": "Ak"
+      },
+      "website": "https://www.aktualne.cz",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "name": "E15",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#00548C",
+      "logo": {
+        "monogram": "E15"
+      },
+      "website": "https://www.e15.cz",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "nyt",
+      "name": "The New York Times",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "NYT"
+      },
+      "website": "https://www.nytimes.com",
+      "aliases": [
+        "new york times"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://myaccount.nytimes.com/seg/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "economist",
+      "name": "The Economist",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#E3120B",
+      "logo": {
+        "monogram": "Ec"
+      },
+      "website": "https://www.economist.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://myaccount.economist.com/s/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#FCD0B1",
+      "logo": {
+        "monogram": "FT"
+      },
+      "website": "https://www.ft.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.ft.com/myaccount/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#052962",
+      "logo": {
+        "monogram": "G"
+      },
+      "website": "https://www.theguardian.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://manage.theguardian.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "The Wall Street Journal",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "WSJ"
+      },
+      "website": "https://www.wsj.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Bl"
+      },
+      "website": "https://www.bloomberg.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "the-atlantic",
+      "name": "The Atlantic",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#E7131A",
+      "logo": {
+        "monogram": "At"
+      },
+      "website": "https://www.theatlantic.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#FF6719",
+      "logo": {
+        "monogram": "Ss"
+      },
+      "website": "https://substack.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://substack.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "categoryIds": [
+        "news",
+        "other"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Pa"
+      },
+      "website": "https://www.patreon.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.patreon.com/settings/memberships",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "apple-news",
+      "name": "Apple News+",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#FA243C",
+      "logo": {
+        "monogram": "AN"
+      },
+      "website": "https://www.apple.com/apple-news/",
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "blinkist",
+      "name": "Blinkist",
+      "categoryIds": [
+        "news",
+        "education"
+      ],
+      "brandColor": "#2CE080",
+      "logo": {
+        "monogram": "Bk"
+      },
+      "website": "https://www.blinkist.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "scribd",
+      "name": "Everand / Scribd",
+      "categoryIds": [
+        "news",
+        "education"
+      ],
+      "brandColor": "#1E7B85",
+      "logo": {
+        "monogram": "Sc"
+      },
+      "website": "https://www.everand.com",
+      "aliases": [
+        "scribd",
+        "everand"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "instapaper",
+      "name": "Instapaper Premium",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "In"
+      },
+      "website": "https://www.instapaper.com",
+      "aliases": [
+        "instapaper"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "feedly",
+      "name": "Feedly",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#2BB24C",
+      "logo": {
+        "monogram": "Fe"
+      },
+      "website": "https://feedly.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "inoreader",
+      "name": "Inoreader",
+      "categoryIds": [
+        "news"
+      ],
+      "brandColor": "#1875F3",
+      "logo": {
+        "monogram": "Io"
+      },
+      "website": "https://www.inoreader.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "garmin-connect",
+      "name": "Garmin Connect+",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ga"
+      },
+      "website": "https://www.garmin.com",
+      "aliases": [
+        "garmin"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.garmin.com/account/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "whoop",
+      "name": "WHOOP",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Wh"
+      },
+      "website": "https://www.whoop.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.whoop.com/settings/membership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "oura",
+      "name": "Oura",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ou"
+      },
+      "website": "https://ouraring.com",
+      "aliases": [
+        "oura ring"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "peloton",
+      "name": "Peloton",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Pe"
+      },
+      "website": "https://www.onepeloton.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "myfitnesspal",
+      "name": "MyFitnessPal Premium",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#0072CE",
+      "logo": {
+        "monogram": "MF"
+      },
+      "website": "https://www.myfitnesspal.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "komoot",
+      "name": "komoot Premium",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#6AA127",
+      "logo": {
+        "monogram": "ko"
+      },
+      "website": "https://www.komoot.com",
+      "aliases": [
+        "komoot"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "zwift",
+      "name": "Zwift",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#FC6719",
+      "logo": {
+        "monogram": "Zw"
+      },
+      "website": "https://www.zwift.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "runna",
+      "name": "Runna",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Ru"
+      },
+      "website": "https://www.runna.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "fitbod",
+      "name": "Fitbod",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#E6264C",
+      "logo": {
+        "monogram": "Fi"
+      },
+      "website": "https://fitbod.me",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "yazio",
+      "name": "YAZIO PRO",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#FF6B3D",
+      "logo": {
+        "monogram": "Ya"
+      },
+      "website": "https://www.yazio.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "flo",
+      "name": "Flo",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#FF5D8F",
+      "logo": {
+        "monogram": "Fl"
+      },
+      "website": "https://flo.health",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "multisport",
+      "name": "MultiSport karta",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#E2001A",
+      "logo": {
+        "monogram": "MS"
+      },
+      "website": "https://www.multisport.cz",
+      "aliases": [
+        "multisport"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "gym",
+      "name": "Posilovna / fitness centrum",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#46A758",
+      "logo": {
+        "monogram": "Gy"
+      },
+      "isTemplate": true,
+      "aliases": [
+        "posilovna",
+        "fitko",
+        "gym"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "sleep-cycle",
+      "name": "Sleep Cycle",
+      "categoryIds": [
+        "fitness"
+      ],
+      "brandColor": "#2D2E6B",
+      "logo": {
+        "monogram": "SC"
+      },
+      "website": "https://sleepcycle.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "babbel",
+      "name": "Babbel",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#FF7900",
+      "logo": {
+        "monogram": "Bb"
+      },
+      "website": "https://www.babbel.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#A435F0",
+      "logo": {
+        "monogram": "Ud"
+      },
+      "website": "https://www.udemy.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.udemy.com/user/edit-account/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "skillshare",
+      "name": "Skillshare",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#00FF84",
+      "logo": {
+        "monogram": "Sk"
+      },
+      "website": "https://www.skillshare.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.skillshare.com/settings/payments",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "masterclass",
+      "name": "MasterClass",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#E32652",
+      "logo": {
+        "monogram": "MC"
+      },
+      "website": "https://www.masterclass.com",
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.masterclass.com/account/edit",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "Br"
+      },
+      "website": "https://brilliant.org",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "pluralsight",
+      "name": "Pluralsight",
+      "categoryIds": [
+        "education",
+        "dev"
+      ],
+      "brandColor": "#F15B2A",
+      "logo": {
+        "monogram": "PS"
+      },
+      "website": "https://www.pluralsight.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "frontend-masters",
+      "name": "Frontend Masters",
+      "categoryIds": [
+        "education",
+        "dev"
+      ],
+      "brandColor": "#C02D28",
+      "logo": {
+        "monogram": "FM"
+      },
+      "website": "https://frontendmasters.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "egghead",
+      "name": "egghead.io",
+      "categoryIds": [
+        "education",
+        "dev"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "eg"
+      },
+      "website": "https://egghead.io",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "datacamp",
+      "name": "DataCamp",
+      "categoryIds": [
+        "education",
+        "dev"
+      ],
+      "brandColor": "#03EF62",
+      "logo": {
+        "monogram": "DC"
+      },
+      "website": "https://www.datacamp.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "busuu",
+      "name": "Busuu",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#2D7DF2",
+      "logo": {
+        "monogram": "Bs"
+      },
+      "website": "https://www.busuu.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "memrise",
+      "name": "Memrise",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#FFC500",
+      "logo": {
+        "monogram": "Mm"
+      },
+      "website": "https://www.memrise.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "headway",
+      "name": "Headway",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#FF6B00",
+      "logo": {
+        "monogram": "Hw"
+      },
+      "website": "https://makeheadway.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "khan",
+      "name": "Khanova škola (dar)",
+      "categoryIds": [
+        "education"
+      ],
+      "brandColor": "#14BF96",
+      "logo": {
+        "monogram": "Kh"
+      },
+      "website": "https://cs.khanacademy.org",
+      "aliases": [
+        "khan academy"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "uber-one",
+      "name": "Uber One",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "U1"
+      },
+      "website": "https://www.uber.com/us/en/u/uber-one/",
+      "aliases": [
+        "uber"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.uber.com/us/en/u/uber-one/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bolt-plus",
+      "name": "Bolt Plus",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#34D186",
+      "logo": {
+        "monogram": "B+"
+      },
+      "website": "https://bolt.eu",
+      "aliases": [
+        "bolt"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://bolt.eu/cs-cz/plus/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "foodora-pro",
+      "name": "foodora pro",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#D70F64",
+      "logo": {
+        "monogram": "fo"
+      },
+      "website": "https://www.foodora.cz",
+      "aliases": [
+        "foodora"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "kosik",
+      "name": "Košík Premium",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#80BC00",
+      "logo": {
+        "monogram": "Kš"
+      },
+      "website": "https://www.kosik.cz",
+      "aliases": [
+        "kosik"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "alza-plus",
+      "name": "AlzaPlus+",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#1A3B8C",
+      "logo": {
+        "monogram": "Al+"
+      },
+      "website": "https://www.alza.cz",
+      "aliases": [
+        "alza"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.alza.cz/alzaplus",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-13"
+        },
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "hellofresh",
+      "name": "HelloFresh",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#91C11E",
+      "logo": {
+        "monogram": "HF"
+      },
+      "website": "https://www.hellofresh.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "name": "Revolut Premium / Metal",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#191C1F",
+      "logo": {
+        "monogram": "Rv"
+      },
+      "website": "https://www.revolut.com",
+      "aliases": [
+        "revolut"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "n26",
+      "name": "N26",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#36A18B",
+      "logo": {
+        "monogram": "26"
+      },
+      "website": "https://n26.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "bank-account",
+      "name": "Bankovní účet (poplatek)",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#8B8D98",
+      "logo": {
+        "monogram": "Bk"
+      },
+      "isTemplate": true,
+      "aliases": [
+        "banka",
+        "ucet"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#003087",
+      "logo": {
+        "monogram": "PP"
+      },
+      "website": "https://www.paypal.com",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "ynab",
+      "name": "YNAB",
+      "categoryIds": [
+        "other",
+        "productivity"
+      ],
+      "brandColor": "#3C5FF5",
+      "logo": {
+        "monogram": "Yn"
+      },
+      "website": "https://www.ynab.com",
+      "aliases": [
+        "you need a budget"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "copilot-money",
+      "name": "Copilot Money",
+      "categoryIds": [
+        "other",
+        "productivity"
+      ],
+      "brandColor": "#000000",
+      "logo": {
+        "monogram": "CM"
+      },
+      "website": "https://copilot.money",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "makro",
+      "name": "Costco / Makro karta",
+      "categoryIds": [
+        "shopping"
+      ],
+      "brandColor": "#003D7D",
+      "logo": {
+        "monogram": "Mk"
+      },
+      "website": "https://www.makro.cz",
+      "aliases": [
+        "makro",
+        "costco"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "mobile-plan",
+      "name": "Mobilní tarif",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#8B8D98",
+      "logo": {
+        "monogram": "Mo"
+      },
+      "isTemplate": true,
+      "aliases": [
+        "telefon",
+        "tarif",
+        "o2",
+        "t-mobile",
+        "vodafone"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "internet",
+      "name": "Internet domů",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#8B8D98",
+      "logo": {
+        "monogram": "Int"
+      },
+      "isTemplate": true,
+      "aliases": [
+        "internet",
+        "wifi"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "Pojištění",
+      "categoryIds": [
+        "other"
+      ],
+      "brandColor": "#8B8D98",
+      "logo": {
+        "monogram": "Po"
+      },
+      "isTemplate": true,
+      "aliases": [
+        "pojisteni",
+        "insurance"
+      ],
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "infuse",
+      "name": "Infuse",
+      "categoryIds": [
+        "video"
+      ],
+      "website": "https://firecore.com/infuse",
+      "brandColor": "#F04E23",
+      "logo": {
+        "monogram": "In"
+      },
+      "aliases": [
+        "infuse pro",
+        "firecore"
+      ],
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    },
+    {
+      "id": "parcel",
+      "name": "Parcel",
+      "categoryIds": [
+        "productivity"
+      ],
+      "website": "https://parcelapp.net",
+      "brandColor": "#1E88E5",
+      "logo": {
+        "monogram": "Pa"
+      },
+      "aliases": [
+        "parcel pro",
+        "parcelapp"
+      ],
+      "defaultBillingSource": "appStore",
+      "cancellation": [
+        {
+          "billingSource": "appStore",
+          "type": "appStore"
+        }
+      ]
+    }
+  ]
+}
