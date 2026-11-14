@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "2026.11.13-4",
-  "generatedAt": "2026-11-13T00:00:00Z",
+  "catalogVersion": "2026.11.14-1",
+  "generatedAt": "2026-11-14T00:00:00Z",
   "categories": [
     {
       "id": "video",
@@ -333,6 +333,72 @@
           "billingSource": "appStore",
           "type": "appStore"
         }
+      ],
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "259",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "standard-yearly",
+          "name": "Standard (ročně)",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "2590",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "year",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "349",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "premium-yearly",
+          "name": "Premium (ročně)",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "3490",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "year",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        }
       ]
     },
     {
@@ -386,6 +452,24 @@
           "billingSource": "appStore",
           "type": "appStore"
         }
+      ],
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Apple TV",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "199",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        }
       ]
     },
     {
@@ -403,6 +487,56 @@
         {
           "billingSource": "appStore",
           "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "standard-ads",
+          "name": "Standard s reklamami",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "199",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "259",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "premium",
+          "name": "Prémiový",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "319",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
         }
       ]
     },
@@ -441,8 +575,83 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.oneplay.cz/ucet",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "komfort",
+          "name": "Komfort",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "199",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "extra-zabava",
+          "name": "Extra Zábava",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "399",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "extra-sport",
+          "name": "Extra Sport",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "599",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "maximum",
+          "name": "Maximum",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "799",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
         }
       ]
     },
@@ -683,6 +892,56 @@
         {
           "billingSource": "appStore",
           "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuální",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "185",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "family",
+          "name": "Rodinný",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "299",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "student",
+          "name": "Studentský",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "99",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
         }
       ]
     },
@@ -1144,6 +1403,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://console.mistral.ai/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -1330,6 +1598,15 @@
       },
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.runwayml.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -1474,6 +1751,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://v0.app/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -1570,6 +1856,25 @@
       "cancellation": [
         {
           "billingSource": "web",
+          "type": "web",
+          "url": "https://linear.app/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "V Linearu otevři Settings → Billing (adresa obsahuje název tvého workspace).",
+              "Zvol Downgrade / Cancel subscription."
+            ],
+            "en": [
+              "In Linear open Settings → Billing (URL contains your workspace).",
+              "Choose Downgrade / Cancel subscription."
+            ]
+          },
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "billingSource": "web",
           "type": "manual",
           "url": "https://linear.app/docs/billing-and-plans",
           "regions": [
@@ -1604,6 +1909,27 @@
         "monogram": "N"
       },
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.notion.so/my-settings",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "V Notionu otevři Settings → Billing (Fakturace).",
+              "Zvol Change plan / Downgrade na Free.",
+              "U workspace s více členy to může udělat jen vlastník."
+            ],
+            "en": [
+              "In Notion open Settings → Billing.",
+              "Choose Change plan / Downgrade to Free.",
+              "Only the workspace owner can do this."
+            ]
+          },
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "web",
           "type": "manual",
@@ -1645,6 +1971,25 @@
       "cancellation": [
         {
           "billingSource": "web",
+          "type": "web",
+          "url": "https://www.figma.com/settings",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "Ve Figmě otevři tým → Settings → Plan.",
+              "Zvol Cancel plan / Downgrade."
+            ],
+            "en": [
+              "In Figma open your team → Settings → Plan.",
+              "Choose Cancel plan / Downgrade."
+            ]
+          },
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "billingSource": "web",
           "type": "manual",
           "url": "https://help.figma.com/hc/en-us/articles/360041064814",
           "regions": [
@@ -1679,6 +2024,25 @@
         "monogram": "Sl"
       },
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.slack.com/admin/billing",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "Ve Slacku: název workspace → Settings & administration → Billing.",
+              "Zvol Change plan → Free."
+            ],
+            "en": [
+              "In Slack: workspace name → Settings & administration → Billing.",
+              "Choose Change plan → Free."
+            ]
+          },
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "web",
           "type": "manual",
@@ -1769,6 +2133,15 @@
         "monogram": "Ra"
       },
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.raycast.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -1886,6 +2259,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.google.com/ac/billing/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -1932,6 +2314,15 @@
       },
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.deepl.com/account/plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -1977,6 +2368,15 @@
       },
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://github.com/settings/billing/summary",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -2021,6 +2421,15 @@
         "monogram": "Nf"
       },
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.netlify.com/teams/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -2155,6 +2564,15 @@
         "monogram": "Se"
       },
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://sentry.io/settings/billing/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -2341,6 +2759,40 @@
           "billingSource": "appStore",
           "type": "appStore"
         }
+      ],
+      "plans": [
+        {
+          "id": "individual",
+          "name": "Individuální",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "339",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "family",
+          "name": "Rodinný",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "479",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        }
       ]
     },
     {
@@ -2512,6 +2964,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.playstation.com/acct/management",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -2532,6 +2993,15 @@
         "nintendo"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://accounts.nintendo.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -2554,6 +3024,24 @@
         {
           "billingSource": "appStore",
           "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "standard",
+          "name": "Apple Arcade",
+          "prices": [
+            {
+              "region": "CZ",
+              "amount": "199",
+              "currency": "CZK",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
         }
       ]
     },
@@ -2602,6 +3090,15 @@
         "seznam"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://ucet.seznam.cz/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -2809,6 +3306,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.calm.com/profile/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -2980,6 +3486,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.rohlik.cz/uzivatel/profil",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3051,6 +3566,15 @@
       },
       "website": "https://www.dazn.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.dazn.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3147,6 +3671,15 @@
       "website": "https://curiositystream.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://curiositystream.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3164,6 +3697,15 @@
       },
       "website": "https://nebula.tv",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://nebula.tv/settings/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3187,6 +3729,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.twitch.tv/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3207,6 +3758,15 @@
         "plex"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.plex.tv/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3291,6 +3851,15 @@
       "website": "https://vimeo.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://vimeo.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3311,6 +3880,15 @@
         "amazon music"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.amazon.com/music/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3333,6 +3911,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://soundcloud.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3350,6 +3937,15 @@
       },
       "website": "https://www.qobuz.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.qobuz.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3636,6 +4232,15 @@
       "website": "https://poe.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://poe.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3676,6 +4281,15 @@
       "website": "https://www.jasper.ai",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.jasper.ai/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3694,6 +4308,23 @@
       },
       "website": "https://www.notion.com/product/ai",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.notion.so/my-settings",
+          "regions": [
+            "*"
+          ],
+          "steps": {
+            "cs": [
+              "Settings → Billing → Notion AI → Remove."
+            ],
+            "en": [
+              "Settings → Billing → Notion AI → Remove."
+            ]
+          },
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "web",
           "type": "manual",
@@ -3747,6 +4378,15 @@
       "website": "https://ideogram.ai",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://ideogram.ai/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3764,6 +4404,15 @@
       },
       "website": "https://pika.art",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://create.pika.art/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3822,6 +4471,15 @@
       "website": "https://www.heygen.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.heygen.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3839,6 +4497,15 @@
       },
       "website": "https://www.synthesia.io",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.synthesia.io/#/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3859,6 +4526,15 @@
       "website": "https://www.descript.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://web.descript.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3877,6 +4553,15 @@
       },
       "website": "https://otter.ai",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://otter.ai/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3897,6 +4582,15 @@
       "website": "https://fireflies.ai",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.fireflies.ai/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3915,6 +4609,15 @@
       },
       "website": "https://krisp.ai",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.krisp.ai/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3935,6 +4638,15 @@
       "website": "https://www.udio.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.udio.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3952,6 +4664,15 @@
       },
       "website": "https://you.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://you.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -3972,6 +4693,15 @@
       "website": "https://platform.deepseek.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://platform.deepseek.com/usage",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -3990,6 +4720,15 @@
       },
       "website": "https://openrouter.ai",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://openrouter.ai/settings/credits",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4070,6 +4809,15 @@
       "website": "https://gamma.app",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://gamma.app/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4088,6 +4836,15 @@
       },
       "website": "https://www.beautiful.ai",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.beautiful.ai/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4183,6 +4940,15 @@
       "website": "https://www.warp.dev",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.warp.dev/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4201,6 +4967,15 @@
       },
       "website": "https://zed.dev",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dashboard.zed.dev/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4245,6 +5020,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://ampcode.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4263,6 +5047,15 @@
       "website": "https://www.coderabbit.ai",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.coderabbit.ai/settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4280,6 +5073,15 @@
       },
       "website": "https://www.greptile.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.greptile.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4355,6 +5157,15 @@
       },
       "website": "https://cline.bot",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.cline.bot/dashboard/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4498,6 +5309,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.atlassian.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4518,6 +5338,15 @@
         "atlassian"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.atlassian.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4636,6 +5465,15 @@
       "website": "https://cal.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.cal.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4671,6 +5509,15 @@
       },
       "website": "https://superhuman.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://mail.superhuman.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4710,6 +5557,15 @@
         "obsidian"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://obsidian.md/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4780,6 +5636,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://ticktick.com/webapp/#settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4821,6 +5686,15 @@
         "cleanshot x"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://licenses.cleanshot.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -4911,6 +5785,15 @@
       "website": "https://mymind.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://access.mymind.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -4928,6 +5811,15 @@
       },
       "website": "https://pitch.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.pitch.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5076,6 +5968,15 @@
       "website": "https://mailchimp.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.mailchimp.com/account/billing/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5094,6 +5995,15 @@
       "website": "https://www.hubspot.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.hubspot.com/l/account-and-billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5111,6 +6021,15 @@
       },
       "website": "https://www.docusign.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.docusign.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5131,6 +6050,15 @@
       "website": "https://www.sketch.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.sketch.com/settings/billing/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5148,6 +6076,15 @@
       },
       "website": "https://spline.design",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.spline.design/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5188,6 +6125,15 @@
       "website": "https://www.shutterstock.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.shutterstock.com/account/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5209,6 +6155,15 @@
         "capcut"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.capcut.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5269,6 +6224,15 @@
         "teams"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.microsoft.com/services",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5418,6 +6382,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://tinder.com/app/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5484,6 +6457,15 @@
       "website": "https://bitbucket.org",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://bitbucket.org/account/settings/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5504,6 +6486,15 @@
         "amazon aws"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://console.aws.amazon.com/billing/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5526,6 +6517,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://console.cloud.google.com/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5543,6 +6543,15 @@
       },
       "website": "https://azure.microsoft.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://portal.azure.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5673,6 +6682,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://fly.io/dashboard",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5718,6 +6736,15 @@
       "website": "https://firebase.google.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://console.firebase.google.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5736,6 +6763,15 @@
       "website": "https://neon.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://console.neon.tech/app/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5753,6 +6789,15 @@
       },
       "website": "https://planetscale.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.planetscale.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5775,6 +6820,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://cloud.mongodb.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5793,6 +6847,15 @@
       "website": "https://www.datadoghq.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.datadoghq.com/billing/plan",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5810,6 +6873,15 @@
       },
       "website": "https://posthog.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.posthog.com/organization/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5832,6 +6904,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://expo.dev/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5849,6 +6930,15 @@
       },
       "website": "https://www.revenuecat.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.revenuecat.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -5946,6 +7036,15 @@
       "website": "https://ngrok.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dashboard.ngrok.com/billing/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -5963,6 +7062,15 @@
       },
       "website": "https://workers.cloudflare.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dash.cloudflare.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6078,6 +7186,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://admin.active24.cz/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6163,6 +7280,15 @@
       "website": "https://tailscale.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://login.tailscale.com/admin/settings/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6180,6 +7306,15 @@
       },
       "website": "https://resend.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://resend.com/settings/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6199,6 +7334,15 @@
       "website": "https://www.algolia.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://dashboard.algolia.com/account/billing",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6216,6 +7360,15 @@
       },
       "website": "https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.microsoft.com/services",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6290,6 +7443,15 @@
       "website": "https://www.box.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.box.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6335,6 +7497,15 @@
       "website": "https://www.sync.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://cp.sync.com/#/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6352,6 +7523,15 @@
       },
       "website": "https://www.idrive.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.idrive.com/idrive/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6418,6 +7598,15 @@
         "mullvad"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://mullvad.net/en/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6518,6 +7707,15 @@
       "website": "https://www.keepersecurity.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://keepersecurity.com/vault/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6538,6 +7736,15 @@
         "antivir"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://home.eset.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6560,6 +7767,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.avast.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6580,6 +7796,15 @@
         "antivir"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.norton.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6602,6 +7827,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://central.bitdefender.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6622,6 +7856,15 @@
         "antivir"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.malwarebytes.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6714,6 +7957,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.humblebundle.com/membership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6732,6 +7984,15 @@
       "website": "https://play.google.com/about/play-pass/",
       "defaultBillingSource": "googlePlay",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://play.google.com/store/account/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6755,6 +8016,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.blizzard.com/subscriptions",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6775,6 +8045,15 @@
         "ffxiv"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://secure.square-enix.com/account/app/svc/mogstation",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6797,6 +8076,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.roblox.com/premium/membership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -6817,6 +8105,15 @@
         "minecraft"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.minecraft.net/profile/realms",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6839,6 +8136,15 @@
         "chess"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.chess.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -6896,6 +8202,15 @@
       },
       "website": "https://www.xbox.com/play",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://account.microsoft.com/services",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -7174,6 +8489,15 @@
       "website": "https://www.wsj.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://customercenter.wsj.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7192,6 +8516,15 @@
       "website": "https://www.bloomberg.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.bloomberg.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7209,6 +8542,15 @@
       },
       "website": "https://www.theatlantic.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://accounts.theatlantic.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -7303,6 +8645,15 @@
       "website": "https://www.blinkist.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.blinkist.com/nc/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7326,6 +8677,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.everand.com/account_settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7347,6 +8707,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.instapaper.com/user",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7365,6 +8734,15 @@
       "website": "https://feedly.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://feedly.com/i/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7382,6 +8760,15 @@
       },
       "website": "https://www.inoreader.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.inoreader.com/preferences",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -7461,6 +8848,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://cloud.ouraring.com/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7478,6 +8874,15 @@
       },
       "website": "https://www.onepeloton.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.onepeloton.com/mymembership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -7535,6 +8940,15 @@
       },
       "website": "https://www.zwift.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://my.zwift.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -7787,6 +9201,15 @@
       "website": "https://brilliant.org",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://brilliant.org/account/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7805,6 +9228,15 @@
       },
       "website": "https://www.pluralsight.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.pluralsight.com/plans",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -7844,6 +9276,15 @@
       "website": "https://egghead.io",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://egghead.io/user/membership",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7863,6 +9304,15 @@
       "website": "https://www.datacamp.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.datacamp.com/account/subscription",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7881,6 +9331,15 @@
       "website": "https://www.busuu.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.busuu.com/dashboard",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -7898,6 +9357,15 @@
       },
       "website": "https://www.memrise.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.memrise.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -8019,6 +9487,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.foodora.cz/account",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -8039,6 +9516,15 @@
         "kosik"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.kosik.cz/muj-ucet",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -8109,6 +9595,15 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.revolut.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -8126,6 +9621,15 @@
       },
       "website": "https://n26.com",
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.n26.com/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
@@ -8167,6 +9671,15 @@
       "website": "https://www.paypal.com",
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.paypal.com/myaccount/autopay/",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
         }
@@ -8189,8 +9702,51 @@
       ],
       "cancellation": [
         {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://app.ynab.com/settings",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
           "billingSource": "appStore",
           "type": "appStore"
+        }
+      ],
+      "plans": [
+        {
+          "id": "monthly",
+          "name": "Měsíční",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "14.99",
+              "currency": "USD",
+              "cycle": {
+                "unit": "month",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
+        },
+        {
+          "id": "yearly",
+          "name": "Roční",
+          "prices": [
+            {
+              "region": "default",
+              "amount": "109",
+              "currency": "USD",
+              "cycle": {
+                "unit": "year",
+                "interval": 1
+              }
+            }
+          ],
+          "lastVerified": "2026-11-14"
         }
       ]
     },
@@ -8229,6 +9785,15 @@
         "costco"
       ],
       "cancellation": [
+        {
+          "billingSource": "web",
+          "type": "web",
+          "url": "https://www.makro.cz/muj-ucet",
+          "regions": [
+            "*"
+          ],
+          "lastVerified": "2026-11-14"
+        },
         {
           "billingSource": "appStore",
           "type": "appStore"
